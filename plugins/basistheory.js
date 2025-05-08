@@ -4,7 +4,7 @@ import { basistheory } from "@basis-theory/web-elements";
 export default async ({ $config }, inject) => {
   try {
     // Initialize with your Public API Key
-    const bt = await basistheory("key_dev_prod_us_pub_JU4qttr2YJxLJqg64S4Tf5", { _devMode: true });
+    const bt = await basistheory("<API KEY>");
     inject("bt", bt);
   } catch (e) {
     // handle initialization errors
